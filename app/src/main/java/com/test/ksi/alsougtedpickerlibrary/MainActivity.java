@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private static final int INTENT_REQUEST_GET_IMAGES = 13 ;
+    private static final int INTENT_REQUEST_GET_IMAGES = 13;
 
 
     private void getImages() {
