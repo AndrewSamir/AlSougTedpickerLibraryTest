@@ -4,6 +4,9 @@
 
 apply plugin: 'com.android.library'
 
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.AndrewSamir'
+
 apply plugin: 'maven'
 group = 'com.github.ParkSangGwon'
 
@@ -28,9 +31,6 @@ android {
 
 repositories {
     maven { url "https://repo.commonsware.com.s3.amazonaws.com" }
-
-
-
 }
 
 dependencies {
@@ -40,7 +40,7 @@ dependencies {
     compile 'com.android.support:design:23.2.0'
 
     compile 'com.github.bumptech.glide:glide:3.6.1'
-   // compile 'com.commonsware.cwac:camera:0.6.12'
+    // compile 'com.commonsware.cwac:camera:0.6.12'
     compile files('libs/cwac-camera-0.6.12.jar')
 
 }
