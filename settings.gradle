@@ -1,1 +1,1 @@
-include ':app', ':tedpicker'
+include ':app', ':tedpicker', ':phone-fieldss', ':InkPageIndicator', ':projectmate'

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/padding_medium"
+    android:paddingTop="@dimen/padding_medium">
+
+    <TextView
+        android:id="@+id/dial_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:textColor="@color/pf_grey_light" />
+
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="@dimen/flag_size"
+        android:layout_height="@dimen/flag_size" />
+
+</LinearLayout>
